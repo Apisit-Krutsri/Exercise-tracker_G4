@@ -1,24 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Edit Profile</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        @media only screen and (max-width: 420.98px){
-            
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="">
+      <div>
+        <h1>Profile</h1>
+        <div>
+          <div class="profile-pic"></div>
 
-    
-    
-</body>
+          <div class="form-account">
+            <div class="flname">
+              <div class="fname">
+                <label for="fname">Frist Name:</label><br />
+                <input type="text" id="fname" name="fname" />
+              </div>
+              <div class="lname">
+                <label for="lname">Last Name:</label><br />
+                <input type="text" id="lname" name="lname" />
+              </div>
+            </div>
+
+            <div class="bml">
+              <div class="kweight">
+                <label for="kweight">Weight:</label><br />
+                <input type="text" id="kweight" name="kweight" />
+              </div>
+              <div class="cheight">
+                <label for="cheight">Height:</label><br />
+                <input type="text" id="cheight" name="cheight" />
+              </div>
+            </div>
+
+            <div>
+              <div class="fmgender">
+              <label for="gen">Gender:</label>
+              <select name="gen" id="gen">
+                <option value="notselect"></option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+              </select>
+            </div>
+              <div>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday" />
+              </div>
+            </div>
+            <div class="motivatione">
+              <div class="motivate">
+                <label for="motivate">Motivation quote for yourself:</label
+                ><br />
+                <input type="text" id="motivate" name="motivate" />
+              </div>
+            </div>
+            <div class="myGoal">
+              <input type="radio" id="html" name="fav_language" value="HTML" />
+              <label for="html">HTML</label><br />
+              <input type="radio" id="css" name="fav_language" value="CSS" />
+              <label for="css">CSS</label><br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script></script>
+  </body>
 </html>
